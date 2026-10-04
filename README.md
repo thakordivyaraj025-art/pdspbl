@@ -1,51 +1,36 @@
-# Social Media Analytics Using Moving Average Calculation
+# Student Performance Management System
 
 ## Project Description
 
-Social Media Analytics Using Moving Average Calculation is a Python-based data analysis project developed as a Beyond Syllabus topic for the Python for Data Science course. The project focuses on analysing social media engagement data, such as likes, comments, shares and views, over a specific period using the Moving Average technique.
+The Student Performance Management System is a Python-based web application developed using Python, Pandas and Streamlit. The main purpose of this project is to simplify the process of managing student academic records, calculating performance and analysing results through an interactive user interface.
 
-The project uses Python, Pandas and Matplotlib to collect, process, analyse and visualize social media data. The Moving Average Calculation helps smooth out daily fluctuations in engagement and identify trends in audience interaction over time.
+The system allows users to manually enter student details such as Student ID, name, attendance and subject-wise marks. It automatically calculates total marks and average marks, checks for duplicate Student IDs and determines whether a student has passed or failed based on marks and attendance criteria. All student records are stored in a CSV file for easy access and management.
 
-By applying a 3-day or 7-day moving average, the project makes it easier to understand whether social media engagement is increasing, decreasing or remaining stable. Graphs are used to compare actual engagement data with moving averages for better trend analysis.
+The application also provides a dashboard to display student records, overall performance statistics, the total number of students, average marks, and the number of passed and failed students. Graphical representation using bar charts helps users understand and compare student performance.
+
+This project demonstrates the practical application of Python, Pandas, data manipulation, data analysis and data visualization. The use of Streamlit to develop an interactive web application makes it a **beyond-syllabus project** for Python for Data Science.
 
 ## Objectives
 
-* To analyse social media engagement data.
-* To calculate moving averages using Python and Pandas.
-* To identify engagement trends over time.
-* To reduce short-term fluctuations in social media data.
-* To visualize likes, comments, shares and views using graphs.
-* To understand audience engagement patterns.
+* To manage student academic records digitally.
+* To automate total and average marks calculations.
+* To identify student results based on marks and attendance.
+* To store and retrieve student information using CSV files.
+* To analyse student performance using statistical summaries.
+* To visualize academic performance through graphical charts.
 
 ## Technologies Used
 
-* **Python:** For data processing and calculations.
-* **Pandas:** For data cleaning and moving average calculations.
-* **Matplotlib:** For data visualization.
-* **Google Colab:** For writing and executing Python code.
-
-## Key Features
-
-* Analyse daily social media engagement data.
-* Calculate 3-day and 7-day moving averages.
-* Compare actual engagement with average engagement trends.
-* Generate graphs for likes, comments, shares and views.
-* Identify increasing and decreasing engagement trends.
-* Display results in tables and charts.
-
-## Methodology
-
-1. Create or import a dataset containing daily social media engagement.
-2. Organize the data using Pandas.
-3. Calculate total engagement using likes, comments and shares.
-4. Apply the rolling window function to calculate moving averages.
-5. Compare daily engagement with moving average values.
-6. Visualize the results using line charts.
-7. Interpret engagement trends based on the analysis.
+* Python
+* Pandas
+* Streamlit
+* CSV
+* Data Visualization
 
 ## Expected Outcome
 
-The project helps identify social media engagement trends by smoothing daily fluctuations. It provides a simple way to understand audience interactions and observe changes in engagement over time through moving average calculations and visual graphs.
+The project provides a simple and interactive platform for managing student performance, reducing manual calculations, organizing academic records and presenting student results in an understandable format.
+observe changes in engagement over time through moving average calculations and visual graphs.
 
 ## Conclusion
 
