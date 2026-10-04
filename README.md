@@ -1,47 +1,61 @@
-# pdspbl
-Moving Average Calculation
+# Social Media Analytics Using Moving Average Calculation
 
-**Project Description**
+## Project Description
 
-Moving Average Calculation is a Python-based data analysis project developed using Python and Pandas. It calculates the moving average of sales data over a specified period to identify trends, smooth out fluctuations and understand changes in sales performance over time.
+Social Media Analytics Using Moving Average Calculation is a Python-based data analysis project developed as a Beyond Syllabus topic for the Python for Data Science course. The project focuses on analysing social media engagement data, such as likes, comments, shares and views, over a specific period using the Moving Average technique.
 
-This project is developed as a Beyond Syllabus Topic for the Python for Data Science course. It demonstrates how moving averages can be used for data analysis and trend visualization.
+The project uses Python, Pandas and Matplotlib to collect, process, analyse and visualize social media data. The Moving Average Calculation helps smooth out daily fluctuations in engagement and identify trends in audience interaction over time.
 
+By applying a 3-day or 7-day moving average, the project makes it easier to understand whether social media engagement is increasing, decreasing or remaining stable. Graphs are used to compare actual engagement data with moving averages for better trend analysis.
 
- Objectives:
- 
-To understand the concept of moving averages.
+## Objectives
 
-To calculate the average of data over a specific time window.
+* To analyse social media engagement data.
+* To calculate moving averages using Python and Pandas.
+* To identify engagement trends over time.
+* To reduce short-term fluctuations in social media data.
+* To visualize likes, comments, shares and views using graphs.
+* To understand audience engagement patterns.
 
-To analyze sales trends using Python and Pandas.
+## Technologies Used
 
-To smooth short-term fluctuations in sales data.
+* **Python:** For data processing and calculations.
+* **Pandas:** For data cleaning and moving average calculations.
+* **Matplotlib:** For data visualization.
+* **Google Colab:** For writing and executing Python code.
 
-To visualize sales data and moving averages using graphs.
+## Key Features
 
+* Analyse daily social media engagement data.
+* Calculate 3-day and 7-day moving averages.
+* Compare actual engagement with average engagement trends.
+* Generate graphs for likes, comments, shares and views.
+* Identify increasing and decreasing engagement trends.
+* Display results in tables and charts.
 
-Technologies Used:
+## Methodology
 
-Python: Main programming language.
+1. Create or import a dataset containing daily social media engagement.
+2. Organize the data using Pandas.
+3. Calculate total engagement using likes, comments and shares.
+4. Apply the rolling window function to calculate moving averages.
+5. Compare daily engagement with moving average values.
+6. Visualize the results using line charts.
+7. Interpret engagement trends based on the analysis.
 
-Pandas: Data manipulation and moving average calculation.
+## Expected Outcome
 
-Matplotlib: Data visualization.
+The project helps identify social media engagement trends by smoothing daily fluctuations. It provides a simple way to understand audience interactions and observe changes in engagement over time through moving average calculations and visual graphs.
 
-Google Colab: Development and execution environment.
+## Conclusion
 
+This project demonstrates the practical application of Moving Average Calculation in Social Media Analytics using Python. It helps simplify engagement data, identify trends and improve understanding of social media performance. It also provides hands-on experience in data manipulation, statistical calculations and visualization.
 
- Features:
- 
-Store and process sales data.
+## Project Information
 
-Calculate moving averages using a rolling window.
-
-Analyze sales trends over time.
-
-Smooth fluctuations in sales values.
-
-Display sales data and moving average results.
-
-Visualize the results using graphs.
+* **Course:** Python for Data Science
+* **Project:** Beyond Syllabus
+* **Topic:** Moving Average Calculation
+* **Application:** Social Media Analytics
+* **Platform:** Google Colab
+* **Language:** Python
