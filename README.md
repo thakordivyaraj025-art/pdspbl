@@ -1,23 +1,24 @@
-# Student Performance Management System
+# Student Management System
 
 ## Project Description
 
-The Student Performance Management System is a Python-based web application developed using Python, Pandas and Streamlit. The main purpose of this project is to simplify the process of managing student academic records, calculating performance and analysing results through an interactive user interface.
+The Student Management System is a Python-based application developed using Python, Pandas and Streamlit to manage and analyze student academic records efficiently. The system allows users to add student details, store records, calculate total and average marks, and monitor academic performance through an interactive web interface.
 
-The system allows users to manually enter student details such as Student ID, name, attendance and subject-wise marks. It automatically calculates total marks and average marks, checks for duplicate Student IDs and determines whether a student has passed or failed based on marks and attendance criteria. All student records are stored in a CSV file for easy access and management.
+The application provides features such as student registration, duplicate ID checking, automatic result calculation, and student record management. It also uses data analysis and visualization techniques to display student performance statistics, including average marks, passed and failed students, and graphical representations of academic results.
 
-The application also provides a dashboard to display student records, overall performance statistics, the total number of students, average marks, and the number of passed and failed students. Graphical representation using bar charts helps users understand and compare student performance.
+The system stores student information in CSV files, making it easy to maintain, retrieve and update records. By using Streamlit, the project provides a simple and user-friendly interface without requiring advanced web development skills.
 
-This project demonstrates the practical application of Python, Pandas, data manipulation, data analysis and data visualization. The use of Streamlit to develop an interactive web application makes it a **beyond-syllabus project** for Python for Data Science.
+This project demonstrates the practical application of Python programming, data manipulation, data analysis and visualization, while introducing Streamlit as a beyond-syllabus technology.
 
 ## Objectives
 
 * To manage student academic records digitally.
-* To automate total and average marks calculations.
-* To identify student results based on marks and attendance.
-* To store and retrieve student information using CSV files.
-* To analyse student performance using statistical summaries.
-* To visualize academic performance through graphical charts.
+* To add, view and store student information.
+* To calculate total and average marks automatically.
+* To identify student performance through Pass/Fail results.
+* To analyze student data using Pandas.
+* To visualize academic performance using charts and graphs.
+* To develop an interactive web application using Streamlit.
 
 ## Technologies Used
 
@@ -25,22 +26,8 @@ This project demonstrates the practical application of Python, Pandas, data mani
 * Pandas
 * Streamlit
 * CSV
-* Data Visualization
+* Matplotlib (if used for charts)
 
 ## Expected Outcome
 
-The project provides a simple and interactive platform for managing student performance, reducing manual calculations, organizing academic records and presenting student results in an understandable format.
-observe changes in engagement over time through moving average calculations and visual graphs.
-
-## Conclusion
-
-This project demonstrates the practical application of Moving Average Calculation in Social Media Analytics using Python. It helps simplify engagement data, identify trends and improve understanding of social media performance. It also provides hands-on experience in data manipulation, statistical calculations and visualization.
-
-## Project Information
-
-* **Course:** Python for Data Science
-* **Project:** Beyond Syllabus
-* **Topic:** Moving Average Calculation
-* **Application:** Social Media Analytics
-* **Platform:** Google Colab
-* **Language:** Python
+A user-friendly web application that simplifies student record management, reduces manual calculations and provides useful insights into academic performance.
